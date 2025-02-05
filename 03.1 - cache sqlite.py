@@ -8,6 +8,7 @@ import os
 os.environ["OPENAI_API_KEY"] = authorization.apikey
 
 
+
 apikey = authorization.apikey
 
 # Create an instance of the chat OpenAI class

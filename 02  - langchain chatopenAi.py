@@ -11,6 +11,7 @@ apikey = authorization.apikey
 # Create an instance of the chat OpenAI class
 
 
+
 llm = ChatOpenAI(
     model="gpt-3.5-turbo",
     api_key=apikey,

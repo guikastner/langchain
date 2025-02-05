@@ -11,6 +11,7 @@ apikey = authorization.apikey
 
 model = ChatOpenAI(model="gpt-3.5-turbo")
 
+
 template = '''
 Traduza o texto do {idioma1} para o {idioma2}:
 {texto}
