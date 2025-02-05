@@ -1,0 +1,7 @@
+authorization.py
+openai_cache.db
+
+__pycache__/
+*.pyc
+.env
+
