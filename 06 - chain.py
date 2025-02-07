@@ -13,8 +13,8 @@ prompt_template = PromptTemplate.from_template(
     'me fale sobre o carro {carro}',
 )
 
-runnable_sequence = prompt_template | model | StrOutputParser()
+runnable_sequence = prompt_template | model #| StrOutputParser()
 
-result = runnable_sequence.invoke({"carro": "fusca 1958"})
+result = runnable_sequence.invoke({'carro': "Ferrari que foi capa do forza 4"})
 
 print(result)
